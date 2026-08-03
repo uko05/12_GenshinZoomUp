@@ -1,0 +1,26 @@
+[2026-03-22T16:54:41.797Z]  @firebase/firestore: Firestore (10.7.0): Uncaught Error in snapshot listener: FirebaseError: [code=failed-precondition]: The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/genshinquiz-eb690/firestore/indexes?create_composite=ClJwcm9qZWN0cy9nZW5zaGlucXVpei1lYjY5MC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvbWVzc2FnZXMvaW5kZXhlcy9fEAEaCwoHcm91bmRJZBABGgoKBnNlbnRBdBABGgwKCF9fbmFtZV9fEAE
+error	@	log.ts:25
+__PRIVATE_logError	@	log.ts:66
+error	@	async_observer.ts:48
+onError	@	event_manager.ts:345
+__PRIVATE_eventManagerOnWatchError	@	event_manager.ts:238
+__PRIVATE_removeAndCleanupTarget	@	sync_engine_impl.ts:875
+(anonymous)	@	sync_engine_impl.ts:666
+Promise.then		
+__PRIVATE_syncEngineRejectListen	@	sync_engine_impl.ts:665
+__PRIVATE_handleTargetError	@	remote_store.ts:648
+__PRIVATE_onWatchStreamChange	@	remote_store.ts:59
+onMessage	@	persistent_stream.ts:655
+(anonymous)	@	persistent_stream.ts:529
+(anonymous)	@	persistent_stream.ts:574
+(anonymous)	@	async_queue_impl.ts:137
+(anonymous)	@	async_queue_impl.ts:327
+Promise.then		
+ou	@	async_queue_impl.ts:188
+enqueue	@	async_queue_impl.ts:135
+enqueueAndForget	@	async_queue_impl.ts:96
+(anonymous)	@	persistent_stream.ts:572
+(anonymous)	@	persistent_stream.ts:527
+Vo	@	webchannel_connection.ts:56
+(anonymous)	@	webchannel_connection.ts:397
+(anonymous)	@	webchannel_connection.ts:298
